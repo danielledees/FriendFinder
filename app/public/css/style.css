@@ -1,0 +1,18 @@
+body {
+    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    
+
+}
+
+
+
+.jumbotron {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(230, 11, 120);
+    color: rgb(9, 15, 15);
+    font-size: 50px;
+}
