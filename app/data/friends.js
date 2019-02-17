@@ -14,6 +14,7 @@ var friendArray = {
             4,
             1
           ],
+        
 
             "name":"Lana Kane",
             "photo":"https://hollywoodhatesme.files.wordpress.com/2016/09/lana-kane.png?w=472",
@@ -45,7 +46,7 @@ var friendArray = {
                 1
               ],
 
-              "name":"Cheryl Tunt",
+              "name":"Cheryl/Carol Tunt",
             "photo":"https://uproxx.files.wordpress.com/2016/05/archer-cheryl-tunt6.jpg?quality=100&w=650&h=360",
             "scores":[
                 5,
@@ -118,11 +119,14 @@ var friendArray = {
                       5,
                       4,
                       1
-                    ],
-        
+                    ]    
       
-}
+};
 
-  console.log(friendArray);
+
+    console.log(friendArray);
+
+
+  
 
   
