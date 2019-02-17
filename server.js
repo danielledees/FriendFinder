@@ -13,7 +13,7 @@ app.use(express.json());
 
 //routing
 
-require = ("./app/routing/apiRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 //listener

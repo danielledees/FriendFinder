@@ -1,4 +1,4 @@
-var friendArray = {
+var friendArray = [{
     
         "name":"Sterling Archer",
         "photo":"https://i.pinimg.com/originals/6c/f2/1a/6cf21a47436087872fc3a7ef1365c0ff.jpg",
@@ -13,53 +13,59 @@ var friendArray = {
             5,
             4,
             1
-          ],
+          ]},
+          {
         
 
             "name":"Lana Kane",
             "photo":"https://hollywoodhatesme.files.wordpress.com/2016/09/lana-kane.png?w=472",
             "scores":[
-                5,
-                1,
                 4,
-                4,
-                5,
-                1,
+                3,
                 2,
+                4,
+                1,
+                3,
+                4,
                 5,
                 4,
                 1
-              ],
-
+              ]},
+            
+            {
               "name":"Cyril Figgis",
             "photo":"https://cdn-images-1.medium.com/max/1200/0*TYFltiPzUa46Bq7D.jpg",
             "scores":[
                 5,
-                1,
-                4,
-                4,
-                5,
-                1,
+                3,
                 2,
-                5,
+                2,
+                3,
                 4,
-                1
-              ],
+                2,
+                2,
+                4,
+                2
+              ]},
+
+              {
 
               "name":"Cheryl/Carol Tunt",
             "photo":"https://uproxx.files.wordpress.com/2016/05/archer-cheryl-tunt6.jpg?quality=100&w=650&h=360",
             "scores":[
-                5,
-                1,
+                3,
                 4,
-                4,
-                5,
-                1,
                 2,
-                5,
                 4,
-                1
-              ],
+                3,
+                1,
+                5,
+                2,
+                4,
+                5
+              ]},
+
+              {
 
               "name":"Pam Poovey",
             "photo":"https://uproxx.files.wordpress.com/2016/05/archer-pam2.jpg?quality=100&w=650",
@@ -68,63 +74,71 @@ var friendArray = {
                 1,
                 4,
                 4,
-                5,
-                1,
                 2,
-                5,
                 4,
-                1
-              ],
+                3,
+                1,
+                3,
+                5
+              ]},
+
+              {
 
               "name":"Dr. Krieger",
               "photo":"https://uproxx.files.wordpress.com/2016/03/dr-krieger-banner.jpg?quality=100&w=650",
               "scores":[
-                  5,
-                  1,
-                  4,
                   4,
                   5,
-                  1,
+                  2,
+                  3,
+                  5,
                   2,
                   5,
                   4,
-                  1
-                ],
+                  3,
+                  4
+                ]},
+
+                {
 
                 "name":"Ray Gillette",
                 "photo":"https://hips.hearstapps.com/esq.h-cdn.co/assets/17/15/1491924675-archer-gay-spy-ray-gillette.jpg",
                 "scores":[
-                    5,
-                    1,
-                    4,
-                    4,
-                    5,
-                    1,
                     2,
+                    3,
                     5,
                     4,
-                    1
-                  ],
+                    2,
+                    3,
+                    5,
+                    2,
+                    3,
+                    3
+                  ]},
+
+                  {
 
                   "name":"Malory Archer",
                   "photo":"https://www.the-arcade.ie/wp-content/uploads/2016/03/Malory-Archer.jpg",
                   "scores":[
-                      5,
-                      1,
-                      4,
-                      4,
-                      5,
-                      1,
                       2,
+                      2,
+                      1,
                       5,
+                      3,
+                      2,
+                      3,
                       4,
+                      5,
                       1
                     ]    
       
-};
+}];
+
+module.exports = friendArray;
 
 
-    console.log(friendArray);
+    //console.log(friendArray);
 
 
   

@@ -27,6 +27,9 @@
 <!--Link to google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
+<!--Link to Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
 </head>
 
@@ -46,13 +49,13 @@
               <legend>About You</legend>
               <div class="form-group1">
                 <label for="name">Name (Required)</label>
-                <input type="input" class="form-control" id="name" aria-describedby="emailHelp">
+                <input type="input" class="form-control required" id="name" aria-describedby="emailHelp">
                 
               </div>
               <br>
               <div class="form-group1">
                 <label for="userphoto">Link to a photo of yourself (Required)</label>
-                <input type="link" class="form-control" id="photo">
+                <input type="link" class="form-control required" id="photo">
               </div>
               <br>
 
@@ -63,7 +66,7 @@
         <h3>Question 1</h3>
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
         <div class="form-group">
-          <select class="custom-select" id="q1">
+          <select class="custom-select required" id="q1">
             <option selected="">Select an option</option>
             <option value="1">One (Strongly Disagree)</option>
             <option value="2">Two</option>
@@ -83,7 +86,7 @@
             <h3>Question 2</h3>
             <p>Generally speaking, you rely more on your experience than your imagination.</p>
             <div class="form-group">
-              <select class="custom-select" id="q2">
+              <select class="custom-select required" id="q2">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -104,7 +107,7 @@
             <p>You find it easy to stay relaxed and focused even when there is some pressure.s</p>
             
               <div class="form-group">
-                <select class="custom-select" id="q3">
+                <select class="custom-select required" id="q3">
                   <option selected="">Select an option</option>
                   <option value="1">One (Strongly Disagree)</option>
                   <option value="2">Two</option>
@@ -124,7 +127,7 @@
             <h3>Question 4</h3>
             <p>You rarely do something just out of sheer curiosity.</p>
             <div class="form-group">
-              <select class="custom-select" id="q4">
+              <select class="custom-select required" id="q4">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -144,7 +147,7 @@
             <h3>Question 5</h3>
             <p>People can rarely upset you.</p>
             <div class="form-group">
-              <select class="custom-select" id="q5">
+              <select class="custom-select required" id="q5">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -164,7 +167,7 @@
             <h3>Question 6</h3>
             <p>It is often difficult for you to relate to other people’s feelings.</p>
             <div class="form-group">
-              <select class="custom-select" id="q6">
+              <select class="custom-select required" id="q6">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -184,7 +187,7 @@
             <h3>Question 7</h3>
             <p>In a discussion, truth should be more important than people’s sensitivities.</p>
             <div class="form-group">
-              <select class="custom-select" id="q7">
+              <select class="custom-select required" id="q7">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -204,7 +207,7 @@
             <h3>Question 8</h3>
             <p>You rarely get carried away by fantasies and ideas.</p>
             <div class="form-group">
-              <select class="custom-select" id="q8">
+              <select class="custom-select required" id="q8">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -224,7 +227,7 @@
             <h3>Question 9</h3>
             <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
             <div class="form-group">
-              <select class="custom-select" id="q9">
+              <select class="custom-select required" id="q9">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -244,7 +247,7 @@
             <h3>Question 10</h3>
             <p>You feel more energetic after spending time with a group of people.</p>
             <div class="form-group">
-              <select class="custom-select" id="q10">
+              <select class="custom-select required" id="q10">
                 <option selected="">Select an option</option>
                 <option value="1">One (Strongly Disagree)</option>
                 <option value="2">Two</option>
@@ -270,7 +273,7 @@
 
 
 
-    <a href="">API Friend List</a> | <a href="">Github Repo</a>
+    <a href="/api/friends">API Friend List</a> | <a href="">Github Repo</a>
 
 
 
@@ -292,7 +295,10 @@
   
     $(".submit").on("click", function(event) {
     event.preventDefault();
+
+  
     var valid = true;
+    if (".container")
 		if($("#name").val() === "" || $("#photo").val() === "") {
 			valid = false;
 		} else if($("#q1").val() === "" || $("#q2").val() === "" || $("#q3").val() === "" || $("#q4").val() === "" || $("#q5").val() === "" || $("#q6").val() === "" || $("#q7").val() === "" || $("#q8").val() === "" || $("#q9").val() === "" || $("#q10").val() === "") {
@@ -300,6 +306,7 @@
     }
     
     if(valid === true) {
+      alert("Success");
 
     var newUser = {
       name: $("#name").val(),
@@ -319,7 +326,11 @@
     }
 
     $.post("api/friends", newUser, function(data) {
+      
       //some function to match users
+      //Once you've found the current user's most compatible friend, display the result as a modal pop-up.
+      // The modal should display both the name and picture of the closest match.
+
     });
 
   } else {alert("Please fill out all fields before submitting")}
