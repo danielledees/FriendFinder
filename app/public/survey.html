@@ -30,6 +30,8 @@
 
 </head>
 
+<body>
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -42,14 +44,15 @@
     <form>
             <fieldset>
               <legend>About You</legend>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Name (Required)</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div class="form-group1">
+                <label for="name">Name (Required)</label>
+                <input type="input" class="form-control" id="name" aria-describedby="emailHelp">
                 
               </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Link to a photo of yourself (Required)</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+              <br>
+              <div class="form-group1">
+                <label for="userphoto">Link to a photo of yourself (Required)</label>
+                <input type="link" class="form-control" id="photo">
               </div>
               <br>
 
@@ -59,19 +62,16 @@
     <div class="col-md-12">
         <h3>Question 1</h3>
         <p>Your mind is always buzzing with unexplored ideas and plans</p>
-        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                <button type="button" class="btn btn-secondary">Select an Option</button>
-                <div class="btn-group" role="group">
-                  <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                    <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                    <a class="dropdown-item" href="#">2</a>
-                    <a class="dropdown-item" href="#">3</a>
-                    <a class="dropdown-item" href="#">4</a>
-                    <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                  </div>
-                </div>
-              </div>
+        <div class="form-group">
+          <select class="custom-select" id="q1">
+            <option selected="">Select an option</option>
+            <option value="1">One (Strongly Disagree)</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five (Strongly Aggree)</option>
+          </select>
+        </div>
        
         
       
@@ -80,21 +80,18 @@
  <!--Question 2-->
  <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 2</h3>
+            <p>Generally speaking, you rely more on your experience than your imagination.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q2">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -103,21 +100,19 @@
      <!--Question 3-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 3</h3>
+            <p>You find it easy to stay relaxed and focused even when there is some pressure.s</p>
+            
+              <div class="form-group">
+                <select class="custom-select" id="q3">
+                  <option selected="">Select an option</option>
+                  <option value="1">One (Strongly Disagree)</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                  <option value="4">Four</option>
+                  <option value="5">Five (Strongly Aggree)</option>
+                </select>
+              </div>
         </div>
     </div>
     <br>
@@ -126,21 +121,18 @@
      <!--Question 4-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 4</h3>
+            <p>You rarely do something just out of sheer curiosity.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q4">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -149,21 +141,18 @@
      <!--Question 5-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 5</h3>
+            <p>People can rarely upset you.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q5">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -172,21 +161,18 @@
      <!--Question 6-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 6</h3>
+            <p>It is often difficult for you to relate to other people’s feelings.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q6">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -195,21 +181,18 @@
      <!--Question 7-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 7</h3>
+            <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q7">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -218,21 +201,18 @@
      <!--Question 8-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 8</h3>
+            <p>You rarely get carried away by fantasies and ideas.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q8">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -241,21 +221,18 @@
      <!--Question 9-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 9</h3>
+            <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q9">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
@@ -264,34 +241,32 @@
      <!--Question 10-->
 <div class="row">
         <div class="col-md-12">
-            <h3>Question 1</h3>
-            <p>Your mind is always buzzing with unexplored ideas and plans</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-secondary">Select an Option</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">1 (Strongly Disagree)</a>
-                        <a class="dropdown-item" href="#">2</a>
-                        <a class="dropdown-item" href="#">3</a>
-                        <a class="dropdown-item" href="#">4</a>
-                        <a class="dropdown-item" href="#">5 (Strongly Agree)</a>
-                      </div>
-                    </div>
-                  </div>
+            <h3>Question 10</h3>
+            <p>You feel more energetic after spending time with a group of people.</p>
+            <div class="form-group">
+              <select class="custom-select" id="q10">
+                <option selected="">Select an option</option>
+                <option value="1">One (Strongly Disagree)</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five (Strongly Aggree)</option>
+              </select>
+            </div>
         </div>
     </div>
     <br>
 
     <!--Submit Button-->
 </fieldset>
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary submit">Submit</button>
 </fieldset>
 </form>
 
 
 <br>
 <hr>
+
 
 
 
@@ -305,10 +280,55 @@
 
 </div> <!--End Container-->
 
-
- 
-
-<body>
     
 </body>
 </html>
+
+<!-- script to capture data and send to server -->
+
+<script type="text/javascript">
+
+
+  
+    $(".submit").on("click", function(event) {
+    event.preventDefault();
+    var valid = true;
+		if($("#name").val() === "" || $("#photo").val() === "") {
+			valid = false;
+		} else if($("#q1").val() === "" || $("#q2").val() === "" || $("#q3").val() === "" || $("#q4").val() === "" || $("#q5").val() === "" || $("#q6").val() === "" || $("#q7").val() === "" || $("#q8").val() === "" || $("#q9").val() === "" || $("#q10").val() === "") {
+			valid = false;
+    }
+    
+    if(valid === true) {
+
+    var newUser = {
+      name: $("#name").val(),
+      photo: $("#photo").val(),
+      scores: [
+        $("#q1").val(),
+        $("#q2").val(),
+        $("#q3").val(),
+        $("#q4").val(),
+        $("#q5").val(),
+        $("#q6").val(),
+        $("#q7").val(),
+        $("#q8").val(),
+        $("#q9").val(),
+        $("#q10").val(),
+      ]
+    }
+
+    $.post("api/friends", newUser, function(data) {
+      //some function to match users
+    });
+
+  } else {alert("Please fill out all fields before submitting")}
+
+});
+
+  
+
+  
+
+</script>
+
