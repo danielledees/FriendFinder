@@ -7,9 +7,28 @@ module.exports = function(app) {
 
 
     app.post("/api/friends", function(req, res) {
-        console.log("is this working");
-        //handle incoming survey results & compatibility logic
-        //Determine the user's most compatible friend using the following as a guide:
+       console.log(req.body);
+       const newFriend = req.body;
+       let lowestDiffernce = null;
+       let bestMatch
+       friendData.forEach( ele => {
+           let totalDifference = 0;
+           ele.scores.forEach((s, i) => {
+                let scoreDiff = Math.abs( parseInt(newFriend.scores[i])) - Math.abs(s);
+                totalDifference += Math.abs(scoreDiff);
+
+           })
+           console.log(totalDifference)
+           if( lowestDiffernce == null || totalDifference < lowestDiffernce){
+               lowestDiffernce = totalDifference
+               bestMatch = ele;
+           }
+       })
+       console.log(bestMatch, "this is the best match")
+
+       res.send(bestMatch);
+//handle incoming survey results & compatibility logic
+//Determine the user's most compatible friend using the following as a guide:
 // Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 // With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
 // Example:

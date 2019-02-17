@@ -1,7 +1,7 @@
 var friendArray = [{
     
         "name":"Sterling Archer",
-        "photo":"https://i.pinimg.com/originals/6c/f2/1a/6cf21a47436087872fc3a7ef1365c0ff.jpg",
+        "photo":"https://i.pinimg.com/originals/6c/f2/1a/6cf21a47436087872fc3a7ef1365c0ff.jpg?quality=100&w=400",
         "scores":[
             5,
             1,
@@ -34,7 +34,7 @@ var friendArray = [{
             
             {
               "name":"Cyril Figgis",
-            "photo":"https://cdn-images-1.medium.com/max/1200/0*TYFltiPzUa46Bq7D.jpg",
+            "photo":"https://cdn-images-1.medium.com/max/1200/0*TYFltiPzUa46Bq7D.jpg?quality=100&w=400",
             "scores":[
                 5,
                 3,
@@ -51,7 +51,7 @@ var friendArray = [{
               {
 
               "name":"Cheryl/Carol Tunt",
-            "photo":"https://uproxx.files.wordpress.com/2016/05/archer-cheryl-tunt6.jpg?quality=100&w=650&h=360",
+            "photo":"https://uproxx.files.wordpress.com/2016/05/archer-cheryl-tunt6.jpg?quality=100&w=400",
             "scores":[
                 3,
                 4,
@@ -68,7 +68,7 @@ var friendArray = [{
               {
 
               "name":"Pam Poovey",
-            "photo":"https://uproxx.files.wordpress.com/2016/05/archer-pam2.jpg?quality=100&w=650",
+            "photo":"https://uproxx.files.wordpress.com/2016/05/archer-pam2.jpg?quality=100&w=400",
             "scores":[
                 5,
                 1,
@@ -85,7 +85,7 @@ var friendArray = [{
               {
 
               "name":"Dr. Krieger",
-              "photo":"https://uproxx.files.wordpress.com/2016/03/dr-krieger-banner.jpg?quality=100&w=650",
+              "photo":"https://uproxx.files.wordpress.com/2016/03/dr-krieger-banner.jpg?quality=100&w=400",
               "scores":[
                   4,
                   5,
@@ -102,7 +102,7 @@ var friendArray = [{
                 {
 
                 "name":"Ray Gillette",
-                "photo":"https://hips.hearstapps.com/esq.h-cdn.co/assets/17/15/1491924675-archer-gay-spy-ray-gillette.jpg",
+                "photo":"https://hips.hearstapps.com/esq.h-cdn.co/assets/17/15/1491924675-archer-gay-spy-ray-gillette.jpg?quality=100&w=400",
                 "scores":[
                     2,
                     3,
@@ -119,7 +119,7 @@ var friendArray = [{
                   {
 
                   "name":"Malory Archer",
-                  "photo":"https://www.the-arcade.ie/wp-content/uploads/2016/03/Malory-Archer.jpg",
+                  "photo":"https://www.the-arcade.ie/wp-content/uploads/2016/03/Malory-Archer.jpg?quality=100&w=400",
                   "scores":[
                       2,
                       2,
@@ -131,9 +131,26 @@ var friendArray = [{
                       4,
                       5,
                       1
-                    ]    
-      
-}];
+                    ]   
+                  },
+                  {
+
+                    "name":"Pickle Rick",
+                    "photo":"https://images.prod.meredith.com/product/fc8754735c8a9b4aebb786278e7265a5/1538025388228/l/rick-and-morty-pickle-rick-sticker",
+                    "scores":[
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                      ]   
+                    }
+  ];
 
 module.exports = friendArray;
 
