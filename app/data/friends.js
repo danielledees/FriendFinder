@@ -34,7 +34,7 @@ var friendArray = [{
             
             {
               "name":"Cyril Figgis",
-            "photo":"https://cdn-images-1.medium.com/max/1200/0*TYFltiPzUa46Bq7D.jpg?quality=100&w=400",
+            "photo":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-chris-parnell.jpg",
             "scores":[
                 5,
                 3,
@@ -102,7 +102,7 @@ var friendArray = [{
                 {
 
                 "name":"Ray Gillette",
-                "photo":"https://hips.hearstapps.com/esq.h-cdn.co/assets/17/15/1491924675-archer-gay-spy-ray-gillette.jpg?quality=100&w=400",
+                "photo":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-adam-reed.jpg",
                 "scores":[
                     2,
                     3,
@@ -119,7 +119,7 @@ var friendArray = [{
                   {
 
                   "name":"Malory Archer",
-                  "photo":"https://www.the-arcade.ie/wp-content/uploads/2016/03/Malory-Archer.jpg?quality=100&w=400",
+                  "photo":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-archer-jessica-walter.jpg?quality=100&w=400",
                   "scores":[
                       2,
                       2,
