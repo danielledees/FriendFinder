@@ -155,7 +155,7 @@ var friendArray = [{
 module.exports = friendArray;
 
 
-    //console.log(friendArray);
+    
 
 
   

@@ -1,11 +1,12 @@
 var friendData = require("../data/friends");
 
 module.exports = function(app) {
+    //shows list of possible friends when api/friends link is clicked
     app.get("/api/friends", function(req, res) {
         res.json(friendData);
     });
 
-
+    //takes in new survey and finds best match
     app.post("/api/friends", function(req, res) {
        console.log(req.body);
        const newFriend = req.body;
@@ -27,7 +28,7 @@ module.exports = function(app) {
        console.log(bestMatch, "this is the best match")
 
        res.send(bestMatch);
-//handle incoming survey results & compatibility logic
+
 //Determine the user's most compatible friend using the following as a guide:
 // Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 // With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
