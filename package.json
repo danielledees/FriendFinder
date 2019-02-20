@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "### Overview",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "package-json": "^6.0.0",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7",
+    "pkg.json": "^2.0.7",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielledees/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielledees/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/danielledees/FriendFinder#readme"
+}
